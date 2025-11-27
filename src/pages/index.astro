@@ -1,11 +1,19 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import TrustSection from "../components/TrustSection.astro";
+import ProductsSection from "../components/ProductsSection.astro";
+import PaymentMethodsSection from "../components/PaymentMethodsSection.astro";
+import DeliverySection from "../components/DeliverySection.astro";
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<BaseLayout
+  title="Celulares al mejor precio en Posadas | Entrega en el día"
+  description="Venta rápida de celulares en Posadas, Misiones. Equipos probados, garantía escrita y entrega en 30 a 45 minutos aprox. Pagá en efectivo, transferencia o Mercado Pago."
+>
+  <Hero />
+  <TrustSection />
+  <ProductsSection />
+  <PaymentMethodsSection />
+  <DeliverySection />
+</BaseLayout>

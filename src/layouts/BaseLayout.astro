@@ -1,0 +1,46 @@
+---
+const { title = "Celulares en Posadas", description = "Venta rápida de celulares en Posadas, Misiones" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body class="min-h-screen bg-slate-950 text-slate-50 antialiased">
+    <div class="min-h-screen flex flex-col">
+      <header class="w-full border-b border-slate-800 bg-slate-950/80 backdrop-blur">
+        <div class="mx-auto max-w-5xl px-4 py-3 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-emerald-500/10 border border-emerald-500/70 text-xs font-bold">
+              📱
+            </span>
+            <div class="flex flex-col leading-tight">
+              <span class="text-sm font-semibold">Celulares Posadas</span>
+              <span class="text-[11px] text-slate-400">Entrega rápida en la ciudad</span>
+            </div>
+          </div>
+          <nav class="flex items-center gap-4 text-xs sm:text-sm">
+            <a href="#catalogo" class="text-slate-300 hover:text-emerald-400 transition">Catálogo</a>
+            <a href="#pagos" class="text-slate-300 hover:text-emerald-400 transition">Pagos</a>
+            <a href="#envios" class="text-slate-300 hover:text-emerald-400 transition">Envíos</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="flex-1">
+        <slot />
+      </main>
+
+      <footer class="border-t border-slate-800 mt-8">
+        <div class="mx-auto max-w-5xl px-4 py-4 text-xs text-slate-500 flex flex-col sm:flex-row justify-between gap-2">
+          <span>© {new Date().getFullYear()} Celulares Posadas — Misiones, Argentina.</span>
+          <span>Entrega en el día en zonas principales de Posadas.</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

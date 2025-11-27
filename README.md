@@ -1,47 +1,57 @@
-# Astro Starter Kit: Basics
+# Celular Posadas
 
-```sh
-npm create astro@latest -- --template basics
-```
+Sitio web para Celular Posadas - Servicios de reparación de celulares
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Características
 
-## 🚀 Project Structure
+- Diseño moderno y responsive
+- Información de servicios de reparación
+- Horarios de atención y ubicación
+- Formulario de contacto
+- Galería de trabajos realizados
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🛠️ Tecnologías utilizadas
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+- [Astro](https://astro.build/) - Framework web moderno
+- HTML5 / CSS3 / JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - Framework de utilidades CSS
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🚀 Cómo comenzar
 
-## 🧞 Commands
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/tu-usuario/celular-posadas.git
+   cd celular-posadas
+   ```
 
-All commands are run from the root of the project, from a terminal:
+2. Instala las dependencias:
+   ```sh
+   npm install
+   ```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+3. Inicia el servidor de desarrollo:
+   ```sh
+   npm run dev
+   ```
 
-## 👀 Want to learn more?
+4. Abre tu navegador en [http://localhost:4321](http://localhost:4321)
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-# celular_posadas
+## 📦 Comandos útiles
+
+| Comando             | Acción                                           |
+|---------------------|--------------------------------------------------|
+| `npm install`       | Instala las dependencias                        |
+| `npm run dev`       | Inicia el servidor de desarrollo                |
+| `npm run build`     | Construye la versión de producción              |
+| `npm run preview`   | Previsualiza la versión de producción localmente |
+
+## 📞 Contacto
+
+Para más información, contáctanos a través de:
+- Teléfono: [Número de teléfono]
+- Email: [Correo electrónico]
+- Dirección: [Dirección del local]
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia [MIT](LICENSE).
